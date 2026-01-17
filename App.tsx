@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { DataViz } from './components/DataViz';
-import { InsightTool } from './components/InsightTool';
 
 const Navbar = () => (
   <nav className="fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center glass border-b border-slate-800">
@@ -210,7 +209,6 @@ function App() {
         <DataViz />
       </div>
       <ProblemSolution />
-      <InsightTool />
       <Pricing />
       <Footer />
     </div>
